@@ -8,10 +8,10 @@
 
 Pod::Spec.new do |s|
 
-  s.name             = "NXTSegmentedControl"
+  s.name             = "NXTSegmentedControlLabelColorConfigured"
   s.version          = "1.0.2"
   s.summary          = "A segmented control replacement that supports swiping, and animated transitions."
-  s.homepage         = "https://github.com/YayNext/NXTSegmentedControl"
+  s.homepage         = "https://github.com/tc-diamond/NXTSegmentedControl.git"
   
   s.license          = { :type => "MIT", :file => "LICENSE" }
   
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   
   s.platform         = :ios
   
-  s.source           = { :git => "https://github.com/YayNext/NXTSegmentedControl.git", :tag => "1.0.2" }
+  s.source           = { :git => "https://github.com/tc-diamond/NXTSegmentedControl.git", :tag => "1.0.2" }
   
   s.source_files     = "Classes", "NXTSegmentedControl/*.{h,m}"
   

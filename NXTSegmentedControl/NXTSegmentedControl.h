@@ -32,6 +32,9 @@
  */
 @property (nonatomic, strong) UIColor *thumbColor;
 
+@property (nonatomic, strong) UIColor *defaultTextColor;
+@property (nonatomic, strong) UIColor *selectedTextColor;
+
 /**
  *  Initializes a segmented control with the provided items.
  *

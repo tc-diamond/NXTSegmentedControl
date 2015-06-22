@@ -354,8 +354,8 @@ static const NSTimeInterval kNXTSegmentedControlDefaultAnimationDuration = 0.10f
 }
 
 - (void)_addLabelWithText:(NSString *)title atIndex:(NSUInteger)index {
-    UILabel *foregroundLabel = [self _labelWithTitle:title textColor:self.tintColor];
-    UILabel *backgroundLabel = [self _labelWithTitle:title textColor:[UIColor whiteColor]];
+    UILabel *foregroundLabel = [self _labelWithTitle:title textColor: self.selectedTextColor ?: self.tintColor];
+    UILabel *backgroundLabel = [self _labelWithTitle:title textColor: self.defaultTextColor ?: [UIColor whiteColor]];
     
     [self.selectedLabels insertObject:foregroundLabel atIndex:index];
     [self.labels insertObject:backgroundLabel atIndex:index];
